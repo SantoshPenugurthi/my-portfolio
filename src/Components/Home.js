@@ -139,7 +139,7 @@ class Home extends Component {
                                     <Typewriter
                                         options={{
                                         strings: [
-                                            "NLP Developer . .",
+                                            "NLP Engineer . .",
                                             "Software Developer . .",
                                             "React Developer . .",
                                             "React Native Developer . .",
