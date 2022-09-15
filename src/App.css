@@ -1,34 +1,166 @@
-.App {
-  text-align: center;
+.App{
+  flex: 1;
+  background-color: #040a1e;
 }
 
-.App-logo {
-  height: 60vmin;
-  pointer-events: none;
+.home-content {
+  padding: 7rem 0 2rem !important;
+  color: whitesmoke;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1s linear;
+.home-header {
+  padding-top: 100px !important;
+}
+
+.heading {
+  font-size: 2.0em !important;
+  padding-bottom:20
+}
+
+.heading-name {
+  font-size: 2.5em !important;
+}
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #35d1e6 !important;
+  font-weight: 900 !important;
+  padding-bottom: 50;
+}
+.Typewriter__cursor {
+  font-size: 2.5em !important;
+  color: #35d1e6 !important;
+  font-weight: 900;
+  -webkit-text-stroke-width: 2px;
+  padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.5em !important;
+    font-weight: 900 !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .Typewriter__cursor {
+    font-size: 2.0em !important;
+    color: #35d1e6 !important;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-content {
+    padding: 3rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .home-header {
+    padding-top: 20px !important;
+  }
+  
+  .heading {
+    font-size: 1.5em !important;
+  }
+  
+  .heading-name {
+    font-size: 2.0em !important;
+  }
+}
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #040a1e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #35d1e6;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #35d1e6;
+  border-radius: 12px;
+}
+
+/* --------- */
+/* Home section */
+/* --------- */
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-img-section{
+  position: relative;
+  height: 400px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.App-logo1 {
+  
+  width: 380px;
+  border-top-style: solid;
+  border-top-width: 25px;
+  border-color: #35d1e6;
+  border-radius: 200px;
+  background-color: "";
+  position: absolute;
+}
+.home-img{
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #35d1e6;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo1 {
+    animation: App-logo-spin1 infinite 3s linear;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes App-logo-spin1 {
   from {
     transform: rotate(0deg);
   }
