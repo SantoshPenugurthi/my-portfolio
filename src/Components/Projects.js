@@ -6,9 +6,85 @@ class Projects extends Component {
             <div
                 style={{padding:30}}
             >
-                <h1 style={{fontWeight:'bold',color:'#fff',paddingBottom:10}}>Projects</h1>
-                <div style={{height:5,width:'50%',backgroundColor:'#35d1e6',alignSelf:'center'}}>
-                    <h3 style={{color:'#fff',paddingTop:100}}>Will be updated soon [Working on it..]</h3>
+                <h1 style={{fontWeight:'bold',color:'#fff',paddingBottom:30}}>Projects</h1>
+                <div
+                    style={{
+                        display:'flex',
+                        flexDirection:'row',
+                        justifyContent:'space-between'
+                    }}
+                >
+                    <div style={{display:'flex',flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',height:500,width:"30%"}}>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:25,color:"#fff",padding:20,alignItems:'center',justifyContent:'center'}}>My Portfolio</h2>
+                        </div>
+                        <div style={{display:'flex',height:200,backgroundColor:"#35d1e6",alignItems:'center',justifyContent:'center',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',marginLeft:10,marginRight:10}}>
+                            <h2 style={{fontSize:25,color:"#fff"}}>Image</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,paddingTop:30}}>Duration &emsp;&nbsp;&nbsp;: 2 Months</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,}}>Team Size &emsp;: 1</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,}}>Role Played &nbsp;: Developer</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:15,color:"#fff",paddingLeft:10,paddingTop:20}}>Skills Used : HTML, CSS, JavaScript, React</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:10,paddingTop:10}}>Project Source : &nbsp;<a href="https://github.com/SantoshPenugurthi/my-portfolio" style={{color:"#35d1e6"}}> Github Link</a></h2>
+                        </div>
+                    </div>
+                    
+                    <div style={{display:'flex',flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',height:500,width:"30%"}}>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:25,color:"#fff",padding:20,alignItems:'center',justifyContent:'center'}}>Topic Modelling</h2>
+                        </div>
+                        <div style={{display:'flex',height:200,backgroundColor:"#35d1e6",alignItems:'center',justifyContent:'center',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',marginLeft:10,marginRight:10}}>
+                            <h2 style={{fontSize:25,color:"#fff"}}>Image</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,paddingTop:30}}>Duration &emsp;&nbsp;&nbsp;: 6 Months</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,}}>Team Size &emsp;: 5</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,}}>Role Played &nbsp;: Developer, Tester</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:15,color:"#fff",paddingLeft:10,paddingTop:20}}>Skills Used : Python, DAA, DS, Math</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:10,paddingTop:10}}>Project Source : &nbsp;<a href="https://github.com/SantoshPenugurthi/Topic-Modelling-on-Telugu-English-Code-mixed-data-using-LDA-" style={{color:"#35d1e6"}}> Github Link</a></h2>
+                        </div>
+                    </div>
+
+                    <div style={{display:'flex',flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',height:500,width:"30%"}}>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:25,color:"#fff",padding:20,alignItems:'center',justifyContent:'center'}}>Smart Dustbin using IoT</h2>
+                        </div>
+                        <div style={{display:'flex',height:200,backgroundColor:"#35d1e6",alignItems:'center',justifyContent:'center',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',marginLeft:10,marginRight:10}}>
+                            <h2 style={{fontSize:25,color:"#fff"}}>Image</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,paddingTop:30}}>Duration &emsp;&nbsp;&nbsp;: 1 Month</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,}}>Team Size &emsp;: 1</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:20,color:"#fff",paddingLeft:10,}}>Role Played &nbsp;: Programmer</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:15,color:"#fff",paddingLeft:10,paddingTop:20}}>Skills Used : C, C++</h2>
+                        </div>
+                        <div>
+                            <h2 style={{display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:10,paddingTop:10}}>Project Source : &nbsp;<a href="https://github.com/SantoshPenugurthi/Smart_Dustbin_Using_IoT" style={{color:"#35d1e6"}}> Github Link</a></h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
