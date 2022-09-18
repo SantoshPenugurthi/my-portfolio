@@ -4,11 +4,12 @@ class Projects extends Component {
     render() {
         return (
             <div
-                style={{padding:30,paddingTop:200}}
+                style={{padding:30}}
             >
-                <h1 style={{color:'#fff',paddingBottom:10}}>Projects</h1>
-                <div style={{height:5,width:'50%',backgroundColor:'#35d1e6',alignSelf:'center'}}></div>
-                
+                <h1 style={{fontWeight:'bold',color:'#fff',paddingBottom:10}}>Projects</h1>
+                <div style={{height:5,width:'50%',backgroundColor:'#35d1e6',alignSelf:'center'}}>
+                    <h3 style={{color:'#fff',paddingTop:100}}>Will be updated soon [Working on it..]</h3>
+                </div>
             </div>
         );
     }
