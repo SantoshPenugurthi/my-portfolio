@@ -8,13 +8,9 @@ class Projects extends Component {
             >
                 <h1 style={{fontWeight:'bold',color:'#fff',paddingBottom:30}}>Projects</h1>
                 <div
-                    style={{
-                        display:'flex',
-                        flexDirection:'row',
-                        justifyContent:'space-between'
-                    }}
+                    className="projects"
                 >
-                    <div style={{display:'flex',flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',height:500,width:"30%"}}>
+                    <div style={{display:'flex',flex:1,flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',margin:5}}>
                         <div>
                             <h2 style={{display:'flex',fontSize:25,color:"#fff",padding:20,alignItems:'center',justifyContent:'center'}}>My Portfolio</h2>
                         </div>
@@ -38,7 +34,7 @@ class Projects extends Component {
                         </div>
                     </div>
                     
-                    <div style={{display:'flex',flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',height:500,width:"30%"}}>
+                    <div style={{display:'flex',flex:1,flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',margin:5}}>
                         <div>
                             <h2 style={{display:'flex',fontSize:25,color:"#fff",padding:20,alignItems:'center',justifyContent:'center'}}>Topic Modelling</h2>
                         </div>
@@ -62,7 +58,7 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div style={{display:'flex',flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',height:500,width:"30%"}}>
+                    <div style={{display:'flex',flex:1,flexDirection:'column',borderWidth:3,borderColor:"#35d1e6",borderStyle:'solid',margin:5}}>
                         <div>
                             <h2 style={{display:'flex',fontSize:25,color:"#fff",padding:20,alignItems:'center',justifyContent:'center'}}>Smart Dustbin using IoT</h2>
                         </div>

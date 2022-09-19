@@ -34,6 +34,12 @@
   -webkit-text-stroke-width: 2px;
   padding-bottom: 50px;
 }
+.projects{
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  justify-content: space-between;
+}
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.5em !important;
@@ -66,6 +72,10 @@
   
   .heading-name {
     font-size: 2.0em !important;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
   }
 }
 /* --------- */
