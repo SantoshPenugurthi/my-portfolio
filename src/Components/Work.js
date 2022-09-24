@@ -31,13 +31,13 @@ class Work extends Component {
                             <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#fff",paddingLeft:100,paddingTop:20}}>Skills Used &emsp;&emsp;:  Computer Networks, Cryptography and Network Security</h2>
                         </div>
                         <div>
-                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: <a href="https://github.com/SantoshPenugurthi/my-portfolio" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
+                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: <a href="https://github.com/SantoshPenugurthi/" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
                         </div>
                     </div>
                     
                     <div style={{display:'flex',flex:1,flexDirection:'column',borderWidth:0,borderLeftWidth:7,borderColor:"#35d1e6",borderStyle:'solid',margin:5}}>
                         <div>
-                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:25,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,borderWidth:0,borderLeftWidth:25,borderColor:"#35d1e6",borderStyle:'solid',}}>React Native Developer (Mobile Application)</h2>
+                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:25,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,borderWidth:0,borderLeftWidth:25,borderColor:"#35d1e6",borderStyle:'solid',}}>React Native Developer (Android & IOS Mobile Application Development)</h2>
                             <h4 style={{fontWeight:'bold',display:'flex',fontSize:20,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,paddingLeft:45}}>[AstroVillage]</h4>
                         </div>
                         <div>
@@ -77,7 +77,7 @@ class Work extends Component {
                             <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#fff",paddingLeft:100,paddingTop:20}}>Skills Used &emsp;&emsp;:   Advanced Java, Problem Solving </h2>
                         </div>
                         <div>
-                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/my-portfolio" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
+                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@ class Work extends Component {
                             <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#fff",paddingLeft:100,paddingTop:20}}>Skills Used &emsp;&emsp;:  Python , Web Scrapping, DAA, DS, Math, Software Engineering, Software Testing</h2>
                         </div>
                         <div>
-                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/my-portfolio" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
+                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
                         </div>
                     </div>
 
@@ -123,7 +123,7 @@ class Work extends Component {
                             <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#fff",paddingLeft:100,paddingTop:20}}>Skills Used &emsp;&emsp;:   Adobe Illustrator, Adobe Photoshop, Adobe After Effects, Adobe Premier Pro, Canva</h2>
                         </div>
                         <div>
-                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/my-portfolio" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
+                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
                         </div>
                     </div>
 
@@ -147,7 +147,7 @@ class Work extends Component {
                             </h2>
                         </div>
                         <div>
-                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/my-portfolio" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
+                            <h2 style={{fontWeight:'bold',display:'flex',fontSize:15,color:"#35d1e6",paddingLeft:100,paddingTop:10}}>Project Source &nbsp;: &nbsp;<a href="https://github.com/SantoshPenugurthi/" style={{color:"#35d1e6"}}> Github Link [Private Repository]</a></h2>
                         </div>
                     </div>
                 </div>
