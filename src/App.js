@@ -1,5 +1,6 @@
 //import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from "./Components/Home";
+import Work from "./Components/Work";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Skills from "./Components/Skills";
@@ -11,9 +12,10 @@ function App() {
   return (
     <main className="App">
       <Home/>
-      <About/>
+      <Work/>
       <Projects/>
       <Skills/>
+      <About/>
       <Resume/>
     </main>
   );
