@@ -37,13 +37,13 @@ class Skills extends Component {
 
                 <div style={{display:'flex',flex:1,flexDirection:'row'}}>
                     <div style={{backgroundColor:"#35d1e6",padding:5,margin:5,paddingRight:20,paddingLeft:20,width:"28%"}}><h5 style={{color:"#040a1e",fontWeight:'bold'}}>Databases:</h5></div>
-                    <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>SQL</h5></div>
                     <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>MySQL</h5></div>
                     <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>MongoDB</h5></div>
                 </div>
 
                 <div style={{display:'flex',flex:1,flexDirection:'row'}}>
                     <div style={{backgroundColor:"#35d1e6",padding:5,margin:5,paddingRight:20,paddingLeft:20,width:"28%"}}><h5 style={{color:"#040a1e",fontWeight:'bold'}}>Other Technologies:</h5></div>
+                    <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>AI</h5></div>
                     <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>Machine Learning</h5></div>
                     <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>Data Science</h5></div>
                     <div style={{padding:5,margin:5,paddingRight:20,paddingLeft:20,borderRadius:50,borderColor:'#35d1e6',borderWidth:3,borderStyle:'solid'}}><h5 style={{color:"#35d1e6",fontWeight:'bold'}}>NLP</h5></div>

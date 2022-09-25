@@ -104,7 +104,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div style={{display:'flex',flex:1,width:"80%",flexDirection:'column',borderWidth:0,borderLeftWidth:7,borderColor:"#35d1e6",borderStyle:'solid',margin:5,marginBottom:0}}>
+                    <div style={{display:'flex',flex:1,width:"80%",flexDirection:'column',borderWidth:0,borderLeftWidth:7,borderColor:"#35d1e6",borderStyle:'solid',margin:5}}>
                         <div>
                             <h2 style={{fontWeight:'bold',display:'flex',fontSize:25,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,borderWidth:0,borderLeftWidth:25,borderColor:"#35d1e6",borderStyle:'solid',}}>Designer</h2>
                             <h4 style={{fontWeight:'bold',display:'flex',fontSize:20,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,paddingLeft:45}}>[SDCAC-Student Development and Campus Activity Cell]</h4>
@@ -127,7 +127,7 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <div style={{display:'flex',flex:1,width:"80%",flexDirection:'column',borderWidth:0,borderLeftWidth:7,borderColor:"#35d1e6",borderStyle:'solid',margin:5,marginBottom:0}}>
+                    <div style={{display:'flex',flex:1,width:"80%",flexDirection:'column',borderWidth:0,borderLeftWidth:7,borderColor:"#35d1e6",borderStyle:'solid',margin:5}}>
                         <div>
                             <h2 style={{fontWeight:'bold',display:'flex',fontSize:25,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,borderWidth:0,borderLeftWidth:25,borderColor:"#35d1e6",borderStyle:'solid',}}>Designer</h2>
                             <h4 style={{fontWeight:'bold',display:'flex',fontSize:20,color:"#35d1e6",padding:20,paddingTop:0,paddingBottom:0,paddingLeft:45}}>[Teckzite21]</h4>
