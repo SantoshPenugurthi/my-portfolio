@@ -14,7 +14,7 @@ class About extends Component {
                     <h4 style={{fontWeight:'bold',color:'#040a1e',}}>Location         &emsp;&emsp;&emsp;&nbsp;&nbsp;        : RGUKT-Nuzvid, Vijayawada, India</h4>
                     <h4 style={{fontWeight:'bold',color:'#040a1e',}}>Github           &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            : https://www.github.com/SantoshPenugurthi</h4>
                     <h4 style={{fontWeight:'bold',color:'#040a1e',}}>Linkedin         &emsp;&emsp;&emsp;&ensp;&nbsp;           : https://www.linkedin.com/in/santosh-penugurthi-1a31971b4</h4>
-                    <h4 style={{fontWeight:'bold',color:'#040a1e',}}>Website          &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;          : https://www.santoshweb.com/</h4>
+                    <h4 style={{fontWeight:'bold',color:'#040a1e',}}>Website          &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;          : https://www.santoshweb3.site/</h4>
                 </div>
             </div>
           
