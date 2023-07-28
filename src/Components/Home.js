@@ -8,44 +8,44 @@ import Col from 'react-bootstrap/Col';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
-import Web3 from 'web3';
+// import Web3 from 'web3';
 
 
 class Home extends Component {
-      constructor(props) {
-        super(props);
-        this.state = {
-          account: null,
-          balance: null,
-          web3: null,
-        };
-      }
+      // constructor(props) {
+      //   super(props);
+      //   this.state = {
+      //     account: null,
+      //     balance: null,
+      //     web3: null,
+      //   };
+      // }
 
-      componentDidMount() {
-        // Check if Brave Crypto Wallet is available
-        if (typeof window.ethereum !== 'undefined') {
-          const web3 = new Web3(window.ethereum);
-          this.setState({ web3 });
+      // componentDidMount() {
+      //   // Check if Brave Crypto Wallet is available
+      //   if (typeof window.ethereum !== 'undefined') {
+      //     const web3 = new Web3(window.ethereum);
+      //     this.setState({ web3 });
 
-          window.ethereum
-            .request({ method: 'eth_requestAccounts' })
-            .then(accounts => {
-              this.setState({ account: accounts[0] });
-              return web3.eth.getBalance(accounts[0]);
-            })
-            .then(balance => {
-              this.setState({ balance });
-            })
-            .catch(error => {
-              console.error('Error connecting to Brave Crypto Wallet:', error);
-            });
-        } else {
-          console.warn('Brave Crypto Wallet not detected. Please install Brave browser and connect your wallet.');
-        }
-      }
+      //     window.ethereum
+      //       .request({ method: 'eth_requestAccounts' })
+      //       .then(accounts => {
+      //         this.setState({ account: accounts[0] });
+      //         return web3.eth.getBalance(accounts[0]);
+      //       })
+      //       .then(balance => {
+      //         this.setState({ balance });
+      //       })
+      //       .catch(error => {
+      //         console.error('Error connecting to Brave Crypto Wallet:', error);
+      //       });
+      //   } else {
+      //     console.warn('Brave Crypto Wallet not detected. Please install Brave browser and connect your wallet.');
+      //   }
+      // }
 
       render() { 
-        const { account, balance, web3 } = this.state;
+        // const { account, balance, web3 } = this.state;
         const particlesInit = async (main) => {
             console.log(main);
         
@@ -156,20 +156,7 @@ class Home extends Component {
                         </Row>
               </Container>*/}
                     <div style={{height:45,width:'100%',backgroundColor:'#35d1e6'}}></div>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
-                      <h1 style={{ color: '#fff', margin: '0 auto', fontFamily: 'Roboto', padding: 10 }}>Welcome to My Portfolio</h1>
-                      {account && (
-                        <div style={{ textAlign: 'center' }}>
-                          <p>Connected Ethereum Account: {account}</p>
-                          {balance && (
-                            <p>Account Balance: {web3.utils.fromWei(balance)} ETH</p>
-                          )}
-                          {/* You can now allow interactions or transactions */}
-                          {/* Add buttons or forms for various interactions */}
-                        </div>
-                      )}
-                      {!account && <p style={{ color: '#35d1e6', fontSize: '20px' }}>Connect your Brave Crypto Wallet to interact with this site.</p>}
-                    </div>
+                    
                     <Container className="home-content">
                         <Row>
                             <Col  md={7} className="home-header">
